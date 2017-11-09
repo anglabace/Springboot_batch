@@ -14,6 +14,7 @@ public class FileDeletingTasklet implements Tasklet, InitializingBean {
 
 	private Resource directory;
 
+	//Deleting functionality
 	@Override
 	public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) throws Exception {
 		File dir = directory.getFile();

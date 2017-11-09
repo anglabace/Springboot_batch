@@ -36,6 +36,7 @@ public class ProcessMultiFilesJob {
 	@Autowired
 	private SimpleJobLauncher jobLauncher;
 
+	//external location of the folder
 	@Value("file:C:\\inbox\\")
 	private Resource directory;
 
@@ -60,6 +61,7 @@ public class ProcessMultiFilesJob {
 		return factory.getObject();
 	}
 
+	//cron job will run in every 10 second
 	@Scheduled(cron = "*/10 * * * * *")
 	public void perform() throws Exception {
 
