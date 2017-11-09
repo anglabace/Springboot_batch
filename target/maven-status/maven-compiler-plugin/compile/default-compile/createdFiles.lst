@@ -1,0 +1,3 @@
+com\verizon\tasklet\FileDeletingTasklet.class
+com\verizon\Application.class
+com\verizon\jobs\ProcessMultiFilesJob.class
