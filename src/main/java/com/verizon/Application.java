@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 //SPRING BOOT APPLICATION ON 2ND MAY
+//PULL REQUEST TEST ON 2ND MAY
 @SpringBootApplication
 @EnableScheduling
 public class Application {
